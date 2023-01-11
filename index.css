@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 * {
     font-family: 'Roboto Mono';
 }
@@ -9,6 +13,10 @@ h1 {
 nav {
     display: flex;
     justify-content: space-around;
+}
+
+header nav {
+    margin-top: 0.5em;
 }
 
 nav a {
@@ -46,11 +54,10 @@ nav a:nth-child(3) {
 
 .tanitim div {
     text-align: center;
-    width: 30%;
+    width: 40%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0%;
 }
 
 .bilgi {
@@ -63,16 +70,31 @@ h1 {
     margin-block-start: 0em;
 }
 
-main {
-    
-}
-
 section {
     width: 20%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
 }
+
 section img {
-    width: 15%;
+    width: 20%;
 }
+
+footer {
+    margin-top: 5em;
+}
+
+footer img {
+    width: 100%;
+    height: 10em;
+}
+
+footer nav {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    background: #DDB9A3;
+}
+
+
